@@ -1,0 +1,143 @@
+/*
+Theme Name: LINICKX
+Theme URI: http://www.linickx.com
+Description: Minimal LINICKX Theme
+Author: Nick
+Template:       twentyeleven
+Version: 4.0
+*/
+
+
+@import url("./style.css");
+
+/** Twelenty 11 overrides **/
+
+#page {
+		margin-top: 15%;
+        background: transparent !important;
+}
+
+.one-column #page {
+        max-width: 760px;
+}
+
+.hentry {
+	border-color: #ffffff !important;
+}
+
+#respond .comment-form-author .required,
+#respond .comment-form-email .required,
+.entry-content form, .entry-content dt {
+	color: #ffffff !important;
+}
+
+h1, h2, h3 {
+	font-family: 'Give You Glory',cursive !important;
+}
+
+.nav-next, .nav-previous, .entry-meta, h1.page-title, .entry-content form {
+	font-family: 'Orbitron', sans-serif !important;
+	
+}
+
+.one-column #nav-below {
+        border-bottom: 0px !important;
+}
+
+.category-archive-meta {
+	font-style: italic;
+}
+
+blockquote {
+	font: 12px "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-style: italic;
+	
+}
+
+.textwidget {
+	text-align: center !important;
+	align: center !important;
+}
+
+#site-generator {
+	background: transparent !important;
+	border-top: none;
+}
+
+/** LINICKX Stuff **/
+
+h3.mysig {
+        font-size: 4em;
+
+}
+.title {
+	
+	font-family: 'Give You Glory',cursive;
+	letter-spacing:0.1em;
+	position:absolute;
+	top:10%;
+	left:15%;
+	width:85%;
+	
+}
+
+.title a:hover {
+    text-decoration: none;
+}
+
+.linickx {
+	
+    font-size: 2.5em;
+    font-weight: 900;
+}
+
+.nick {
+	
+    font-size: 4.5em;
+	
+}
+
+.line {
+	
+    margin-left: -20%;
+    margin-top: -3em;
+    width: 120%;
+    
+}
+
+.line hr {
+		background-color: #ffffff !important;;
+}
+
+.mynav {
+    padding-right: 2em;
+    text-align:right;
+    font-size: 1.25em;
+    font-family: 'Orbitron', sans-serif;
+	margin-top: -1em;
+}
+
+.mynav a:hover {
+	text-decoration: underline;
+}
+
+.download {
+        border-top: 1px dotted #ffffff;
+	border-bottom: 1px dotted #ffffff;
+        padding: 10px;
+        margin: 20px auto auto auto;
+	
+}
+
+.download img {
+	float: left;
+	padding: 5px;
+}
+
+.download h3, .download a, .download p {
+        font-family: 'Orbitron', sans-serif;
+}
+
+.download h3 {
+        display:inline;
+}
